@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ajit Shrestha</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Tailwind CSS Custom Configuration for Extended Colors -->
+    <style>
+        
+        /* @tailwind base; */
+        /* @tailwind components; */
+        /* @tailwind utilities; */
+        
+        @layer utilities {
+            .bg-custom {
+                background-color: #f0f4f8;
+            }
+            .text-primary {
+                color: #1a202c;
+            }
+            .text-secondary {
+                color: #718096;
+            }
+        }
+    </style>
+    
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-500 to-indigo-600 p-8 md:p-12 text-white">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-md">
+                <img src="c:\Users\Asus\Downloads\WhatsApp Image 2024-08-01 at 19.16.02_26f0592e.jpg" alt="Ajit Shrestha" class="w-full h-full object-cover">
+            </div>
+            <div class="mt-6 md:mt-0 md:ml-8 text-center md:text-left">
+                <h1 class="text-4xl font-bold">Ajit Shrestha</h1>
+                <p class="text-xl mt-2 font-medium">Animator</p>
+                <button onclick="alert('Hello!')" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded-full shadow hover:bg-gray-100 transition duration-300">
+                    Say Hello!
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto p-6 md:p-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Personal Information -->
+            <section class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-semibold mb-4 flex items-center">
+                    <i class="fas fa-user mr-2 text-blue-500"></i> Personal Information
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li><strong>Location:</strong> Sundarijal, Kathmandu, Nepal</li>
+                    <li><strong>Hometown:</strong> Pokhara, Nepal</li>
+                    <li><strong>Email:</strong> <a href="mailto:Ajitshrestha555@gmail.com" class="text-blue-500 hover:underline">Ajitshrestha555@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+9779828038312" class="text-blue-500 hover:underline">+977-9828038312</a></li>
+                </ul>
+            </section>
+
+            <!-- Education -->
+            <section class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-semibold mb-4 flex items-center">
+                    <i class="fas fa-graduation-cap mr-2 text-green-500"></i> Education
+                </h2>
+                <ul class="space-y-4 text-gray-700">
+                    <li>
+                        <p class="font-medium">Secondary Education Examination (SEE)</p>
+                        <p>GEMSS, 2024</p>
+                    </li>
+                    <li>
+                        <p class="font-medium">High School (+2)</p>
+                        <p>Times International College, Dillibazar</p>
+                    </li>
+                    <li>
+                        <p class="font-medium">Bachelor of Information Technology</p>
+                        <p>MIT, Bag Bazar, Kathmandu</p>
+                        <p>Expected Graduation: 2027</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Hobbies -->
+            <section class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-semibold mb-4 flex items-center">
+                    <i class="fas fa-heart mr-2 text-red-500"></i> Hobbies
+                </h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li>🎬 Watching Movies</li>
+                    <li>📚 Reading Books</li>
+                    <li>✈️ Travelling to New Places</li>
+                </ul>
+            </section>
+
+            <!-- Career Objective -->
+            <section class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-semibold mb-4 flex items-center">
+                    <i class="fas fa-bullseye mr-2 text-purple-500"></i> Career Objective
+                </h2>
+                <p class="text-gray-700">
+                    To leverage my skills and passion in animation to create captivating content while exploring and experiencing diverse cultures around the world.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2024 Ajit Shrestha. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="hover:text-gray-400"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
